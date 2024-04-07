@@ -28,7 +28,7 @@ fptr_w = fopen("dist3.dat", "w");	// the histogram output file (write out)
       perror("Error opening file");
       return(-1);}			// handle fopen error, if any
 
-for (i = 0; i < N+1; i++)
+for (i = 0; i < N+1; i++)		// read data file into memory
 {
     fscanf(fptr_r, "%G", &x[i]);
 }
@@ -64,7 +64,7 @@ for (j = 0 ; j < nbin+1 ; j++)		// compute histogram
 //for (i = 1 ; i < nbin ; i++) summ = summ + hist[i];
 //for (i = 1 ; i < nbin ; i++) hist[i] = hist[i] / summ;
 
-for (i = 1; i < nbin+1; i++)
+for (i = 1; i < nbin+1; i++)		// write to data file.
 {
 	fprintf(fptr_w, "  %3.18f        %3.18f\n", xmin+i*dx, hist[i]);
 }

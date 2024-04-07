@@ -1,6 +1,7 @@
 # Histogram
 
-what is a histogram?
+What is a histogram?
+
 The visual representation that charts the frequency distribution of variables in a data set.
 A frequency distribution shows the regularity of an occurrence of a value in a set of data.
 Often confused with a bar chart, although there are certain defining characteristics of differentiation.
@@ -21,8 +22,14 @@ Used to analyse large amounts of data easily to detect trends and patterns.
 ## Compilation
 type `make` or `cc -o histo histogram.c -lm` on the command line
 
+## Misc.
+I have included both uniform and gaussian (normal) distribution data files.
+Gnuplot or some equivelant application is required to graph the histogram data.
+
+
 ## Todo
 * Need to use SDL2 to plot a graph of the output
+* Logical bugs still exit, this is very much still a work in progress.
 
 ## Author(s)
 Jason Bou-Samra

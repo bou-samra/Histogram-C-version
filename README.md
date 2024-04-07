@@ -28,8 +28,8 @@ type `make` or `cc -o histo histogram.c -lm` on the command line
 
 
 ## Todo
-* Need to use SDL2 to plot a graph of the output
-* Logical bugs still exit, this is very much still a work in progress.
+* Need to use SDL2 to implement internal plotting routine.
+* Logical bugs still exit, and so this is very much still a work in progress.
 
 ## Author(s)
 Jason Bou-Samra

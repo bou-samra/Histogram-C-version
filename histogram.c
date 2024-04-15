@@ -69,5 +69,8 @@ for (i = 1; i < nbin+1; i++)		// write to data file.
 	fprintf(fptr_w, "  %3.18f        %3.18f\n", xmin+i*dx, hist[i]);
 }
 
+fclose(fptr_r);         // close read file
+fclose(fptr_w);         // close write file
+
 return 0;
 }

@@ -21,6 +21,9 @@
 ## Compilation
 type `make` or `cc -o histo histogram.c -lm` on the command line
 
+## Screenshot
+![Histogram-C-version]()https://github.com/bou-samra/Histogram-C-version/blob/main/dist3.dat.png
+
 ## Misc.
 * I have included both uniform and gaussian (normal) distribution data files.
 * Gnuplot or some equivelant application is required to graph the histogram data.
